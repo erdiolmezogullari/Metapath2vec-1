@@ -1,6 +1,6 @@
 # coding: utf-8
 
-import numpy as np, os
+import os
 
 def getData(filename, typestr):
     '''

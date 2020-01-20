@@ -209,7 +209,7 @@ class metapath2vec():
             if step % 10 == 0:
                 print('[Epoch {} -- {}/{} ({})]: Train Loss:\t {}\r'.format\
                     (epoch_number, current_sent_num, self.sent_num, current_sent_num/self.sent_num,
-                    np.mean(loss_list)), end='')
+                    np.mean(loss_list)))
 
                 now = time()
                 if now - st > 1800:
